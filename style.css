@@ -1,0 +1,134 @@
+
+body{
+  background-color: rgba(238, 238, 238, 0.942);
+ }
+  #clock_body{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    margin:5% auto;
+    box-shadow:inset -15px 0 30px -10px grey ,
+                      -15px 0 30px  -10px grey ;
+    position:relative;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    transform:rotate(-90deg);
+  }
+  .text{
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    position:absolute;
+    transform: rotate(90deg);
+    font-weight: bolder ;
+    color:grey;
+  }
+  .text12{
+    top:140px;
+    right:20px;
+  }
+  .text1{
+    bottom:75px;
+    right:35px;
+    transform: rotate(30deg);
+  }
+  .text2{
+    bottom:30px;
+    right:75px;
+    transform: rotate(60deg);
+  }
+  .text3{
+    bottom:15px;
+    left:150px;
+  }
+  .text4{
+    bottom:30px;
+    left:75px;
+    transform: rotate(120deg);
+  }
+  .text5{
+    bottom:75px;
+    left:35px;
+    transform: rotate(150deg);
+  }
+  .text6{
+    top:140px;
+    left:20px;
+  }
+  .text7{
+    top:75px;
+    left:35px;
+    transform: rotate(210deg);
+  }
+  .text8{
+    top:30px;
+    left:75px;
+    transform: rotate(240deg);
+  }
+  .text9{
+    top:15px;
+    left:140px;
+  }
+  .text10{
+    top:30px;
+    right:80px;
+    transform: rotate(300deg);
+  }
+  .text11{
+    top:75px;
+    right:35px;
+    transform: rotate(330deg);
+  }
+ #hour,#minute,#second{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform-origin: top left;
+  border-radius:10px;
+ }
+ #hour{
+   height:5px;
+   background-color: chocolate;
+   width:60px;
+ }
+ #minute{
+   height:4px;
+   background-color: rgb(39, 39, 39);
+   width:75px;
+ }
+ #second{
+   height:1px;
+   background-color: rgb(57, 138, 200);
+   width:150px;
+ }
+ .center{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color: rgb(57, 138, 200);
+  z-index:2;
+ }
+ button{
+  height:25px;
+  width:50px;
+  border-radius:30px;
+  position:relative;
+  border:0;
+  cursor: pointer;
+  }
+  button .circle {
+    position:absolute;
+    top:0;
+    height:23px;
+    width:23px;
+    border-radius:50%;
+    background-color: white ;
+    left:1px;
+    top:1px;
+  }
+  .bi-moon-fill{
+    color:var(--c1);
+  }
+  .bi-brightness-high-fill{
+    color:rgb(255, 189, 65);
+  }
