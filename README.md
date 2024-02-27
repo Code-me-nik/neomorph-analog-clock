@@ -12,4 +12,5 @@ CSS ,
 JavaScript
 
 ## preview
+![analog clock preview](https://github.com/Code-me-nik/neomorph-analog-clock/assets/123573794/9651d659-3e37-4c57-8fcb-a80de988e6c0)
 
